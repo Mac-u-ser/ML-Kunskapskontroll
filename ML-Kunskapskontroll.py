@@ -33,7 +33,7 @@ def rgba2rgb( rgba, background=(255,255,255) ):
 
     return np.asarray( rgb, dtype='uint8' )    
 # load
-data_f = bz2.BZ2File('model.pbz2', 'rb')
+data_f = bz2.BZ2File('model_200.pbz2', 'rb')
 extra_trees_clf_400 = pickle.load(data_f)
 
 
@@ -52,7 +52,7 @@ my_upload = st.sidebar.file_uploader("Upload an image", type=["jpg", "webp"])
 
 if my_upload is not None:
     if my_upload.size > MAX_FILE_SIZE:
-        st.error("The uploaded file is too large. Please upload an image smaller than 5MB.")
+        st.error("The uploaded file is too large. Please upload an image smaller than 7MB.")
     else:
         col1.write("Original Image :camera:")
         col1.image(my_upload)
