@@ -3,6 +3,6 @@ pillow
 numpy
 pandas
 matplotlib
-sklearn
+scikit-learn
 bz2file
 pickle
