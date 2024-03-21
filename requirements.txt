@@ -3,5 +3,5 @@ pillow
 numpy
 pandas
 matplotlib
-scikit-learn
+scikit-learn==1.2.2
 bz2file
