@@ -1,6 +1,5 @@
 streamlit
 pillow
-base64
 numpy
 pandas
 matplotlib

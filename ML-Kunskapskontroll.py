@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 #from io import BytesIO
-import base64
+#import base64
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
