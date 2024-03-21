@@ -1,0 +1,10 @@
+streamlit
+PIL
+io
+base64
+numpy
+pandas
+matplotlib
+sklearn
+bz2file
+pickle
