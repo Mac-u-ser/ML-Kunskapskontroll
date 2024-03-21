@@ -1,6 +1,5 @@
 streamlit
 pillow
-io
 base64
 numpy
 pandas
